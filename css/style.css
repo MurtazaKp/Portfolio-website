@@ -1,0 +1,189 @@
+:root{
+    --bs-blue:#8fd0ff;
+    --bs-otange:#ffb1a3;
+    --bs-green:#97eab9;
+    --bs-lightblue:#9ba0fc;
+    --bs-yellow:#ffd280;
+    --bs-promotors:#fd7e14;
+    --bs-zymmy:#1c62b7;
+    --bs-uniland:brown;
+    --bs-kider:#103741;
+    --bs-contact:#ff8f8f;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bungee', cursive;
+    
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-pro{
+    color: var(--bs-promotors);
+}
+
+.text-zymmy{
+    color: var(--bs-zymmy);
+}
+
+.text-uniland{
+    color: #bb915b;
+}
+
+.text-uniland{
+    color:brown;
+}
+
+.text-kider{
+    color: var(--bs-kider);
+}
+
+.bg-blue{
+background:var(--bs-blue);
+
+}
+
+.bg-orange{
+    background-color: var(--bs-otange);
+}
+.bg-green{
+ background-color: var(--bs-green);   
+}
+
+.bg-lblue{
+
+    background-color: var(--bs-lightblue);
+}
+
+.bg-yellow{
+    background-color: var(--bs-yellow);
+}
+
+.bg-contact{
+    background-color: var(--bs-contact);
+}
+
+
+.window {
+
+  
+  border-radius: 5px;
+
+
+}
+
+  .window img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 200px;
+    transition: 5s all ease;
+  }
+img:hover {
+    object-position: bottom;
+}
+
+.button{
+    background-color: black;
+    border: 2px solid white !important;
+      transition:ease-in-out 1s !important;
+}
+
+.button:hover{
+    background-color: white !important;
+    color: black !important;
+  
+    border:2px solid black !important;
+}
+
+.button1{
+    transition: 1s;
+}
+.button1:hover{
+    background-color: black !important;
+    color: white !important;
+    border:2px solid white !important; 
+}
+
+.error{
+    color: #A62349;
+}
+
+.navbar{
+    position: sticky;
+    top:10px;
+}
+
+
+.form-control:focus{
+    border: 1px solid black !important;
+
+    box-shadow:none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 3;
+    display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+  
+@media  screen and (min-width:768px) {
+    .window img{
+        height:250px;
+    }
+    .navbar{
+        width: 100%;
+        position: sticky;
+    }
+
+    .about-img{
+        transform: scale(0.9);
+    }
+    
+}
+
+@media  screen and (min-width:1024px) {
+    .window img{
+        height:275px;
+    }
+
+    .navbar{
+        position:fixed ;
+        top:5px;
+    }
+    .about-img{
+    transform: scale(1);
+    }
+    
+}
+
+@media  screen and (min-width:1440px) {
+    .window img{
+        height:300px;
+    }
+
+    .about-img{
+        transform: scale(0.9);
+    }
+    
+}
